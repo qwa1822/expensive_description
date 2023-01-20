@@ -11,7 +11,7 @@ function solution(a){
       let flag=1;
       for(let k=0; k<4; k++){
         let nx=i+dx[k];
-        let ny=j+dy[k];
+        let ny=j+ [k];
         if(nx>=0 && nx<n && ny>=0 && ny<n && a[nx][ny]>=a[i][j]){
           flag=0;
           break;
