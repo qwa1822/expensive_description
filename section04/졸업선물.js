@@ -18,7 +18,7 @@ function Solution(m,product){
         if(j!==i && (product[j][0]+product[j][1])<=money ){
         money-=(product[j][0]+product[j][1]);
         cnt++;
-      }
+      }``
 
     }
     answer=Math.max(answer,cnt);
